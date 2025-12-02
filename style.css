@@ -79,3 +79,63 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+/* HERO SECTION */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* înălțime mare */
+  background-image: url("09EE79C3-FBF1-432E-8C78-805BEB6EDE65.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overlay pentru lizibilitate */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35); /* poate fi ajustat */
+}
+
+/* Conținut */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero-content h2 {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* Buton Doctolib */
+.btn-doctolib {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-doctolib:hover {
+  background: #0056b3;
+}
