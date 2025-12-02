@@ -1,8 +1,4 @@
-<header>
-    <img src="logo.svg" alt="Logo Dr. Badele Simona" class="logo">
-    <h1>SELARL Dr. Badele Simona</h1>
-    <p>Médecin Généraliste</p>
-    <a href="https://www.doctolib.fr/medecin-generaliste/thoirette" target="_blank" class="rdv-btn">
-      Prendre rendez-vous sur Doctolib
-    </a>
-</header>
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="38" fill="#0077aa"/>
+  <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="40px" dy="14px">+</text>
+</svg>
