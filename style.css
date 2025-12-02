@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
     background: #f8f8f8;
+    line-height: 1.6;
 }
 
 header {
@@ -11,6 +10,27 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.rdv-btn {
+    display: inline-block;
+    background: #0077aa;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.rdv-btn:hover {
+    background: #005f88;
 }
 
 nav {
@@ -21,8 +41,8 @@ nav {
 
 nav a {
     margin: 0 15px;
-    color: #0077aa;
     text-decoration: none;
+    color: #0077aa;
     font-weight: bold;
 }
 
@@ -44,8 +64,8 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 button:hover {
@@ -57,5 +77,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
